@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>할인 혜택 타이머</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 600px;
+            border: 2px solid #ffd700;
+            border-radius: 10px;
+            background: linear-gradient(to bottom, #222, #333);
+            box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+        }
+        .title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #ffd700;
+            margin-bottom: 10px;
+        }
+        #timer {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #ffd700;
+            margin-bottom: 10px;
+        }
+        .seats {
+            font-size: 1.2rem;
+            color: #ff4040;
+            font-weight: bold;
+        }
+        .note {
+            font-size: 0.9rem;
+            color: #ccc;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">할인 종료 까지 </div>
+        <div id="timer">08:34:26:24</div>
+        <div class="seats">잔여: 3석</div>
+        <div class="note"> 1년 내로 토지주 못되면 100% 환불 </div>
+    </div>
+    <script src="countdown.js"></script>
+</body>
+</html>
